@@ -43,7 +43,7 @@ class ProductStructure
         foreach ($products as $product) {
             $arr[] = explode('-', $product);
 
-            // Criando os índices "cor" e indíces "tamanho ;
+            // Criando os índices "cor" e índices "tamanho ;
             foreach ($arr as $key => $value) {
                 $indexColor[]   = $value[0];
                 $indexSize[]    = $value[1];
